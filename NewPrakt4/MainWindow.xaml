@@ -1,0 +1,18 @@
+﻿<Window x:Class="NewPrakt4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NewPrakt4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="Users" SelectionChanged="Users_SelectionChanged" />
+        <TextBox x:Name="NameTbx" HorizontalAlignment="Left" Margin="178,283,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="146" Height="30" />
+        <TextBox x:Name="NameTbx1" HorizontalAlignment="Left" Margin="178,335,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="146" Height="29"/>
+        <TextBox x:Name="NameTbx2" HorizontalAlignment="Left" Margin="178,384,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="146" Height="28"/>
+        <Button x:Name="bt1" Content="следующее окно" HorizontalAlignment="Left" Margin="611,364,0,0" VerticalAlignment="Top" Height="39" Width="160" Click="bt1_Click"/>
+        <Button Content="обновить" HorizontalAlignment="Left" Margin="358,235,0,0" VerticalAlignment="Top" Height="48" Width="176" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
